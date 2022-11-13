@@ -40,14 +40,14 @@ public class MyFrame extends JFrame implements ActionListener
 		panel[7] = new MyPanel(7, "Wake up");
 		
 		//Create the songs' files
-		file[0] = new File("D:\\Github local repositories\\Music application\\Music application\\Songs\\Lie to me - 5SOS.wav");
-		file[1] = new File("D:\\Github local repositories\\Music application\\Music application\\Songs\\Malibu - Miley Cyrus.wav");
-		file[2] = new File("D:\\Github local repositories\\Music application\\Music application\\Songs\\She looks so perfect - 5SOS.wav");
-		file[3] = new File("D:\\Github local repositories\\Music application\\Music application\\Songs\\Somebody to you - The Vamps ft. Demi Lovato.wav");
-		file[4] = new File("D:\\Github local repositories\\Music application\\Music application\\Songs\\Teenage dream - Katy Perry.wav");
-		file[5] = new File("D:\\Github local repositories\\Music application\\Music application\\Songs\\The one that got away - Katy Perry.wav");
-		file[6] = new File("D:\\Github local repositories\\Music application\\Music application\\Songs\\Thinking of you - Katy Perry.wav");
-		file[7] = new File("D:\\Github local repositories\\Music application\\Music application\\Songs\\Wake up - The Vamps.wav");
+		file[0] = new File("D:\\Github local repositories\\Music application\\Music application\\songs\\Lie to me - 5SOS.wav");
+		file[1] = new File("D:\\Github local repositories\\Music application\\Music application\\songs\\Malibu - Miley Cyrus.wav");
+		file[2] = new File("D:\\Github local repositories\\Music application\\Music application\\songs\\She looks so perfect - 5SOS.wav");
+		file[3] = new File("D:\\Github local repositories\\Music application\\Music application\\songs\\Somebody to you - The Vamps ft. Demi Lovato.wav");
+		file[4] = new File("D:\\Github local repositories\\Music application\\Music application\\songs\\Teenage dream - Katy Perry.wav");
+		file[5] = new File("D:\\Github local repositories\\Music application\\Music application\\songs\\The one that got away - Katy Perry.wav");
+		file[6] = new File("D:\\Github local repositories\\Music application\\Music application\\songs\\Thinking of you - Katy Perry.wav");
+		file[7] = new File("D:\\Github local repositories\\Music application\\Music application\\songs\\Wake up - The Vamps.wav");
 		
 		//Create the corresponding audioStreams
 		for(int i = 0 ; i < 8 ; i++)
